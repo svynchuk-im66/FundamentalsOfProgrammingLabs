@@ -1,2 +1,2 @@
-# FundamentalsOfProgrammingLabs
+# ProgrammingLabs
 Created for labs.
