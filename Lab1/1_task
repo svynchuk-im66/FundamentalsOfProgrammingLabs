@@ -1,0 +1,22 @@
+'use strict';
+
+// З сигнатурою inc(n: number): number
+const a = 1;
+const b = inc1(a);
+
+function inc1(n) {
+  return n + 1;
+}
+
+console.dir( a, b );
+
+// З сигнатурою inc(num: Num)
+const obj = { n: 3 };
+const c = inc2(obj);
+
+function inc2(num) {
+  num.n = num.n + 1;
+  return num;
+}
+
+console.dir(obj);    
