@@ -19,4 +19,4 @@ function inc2(num) {
   return num;
 }
 
-console.dir(obj);    
+console.dir(c);    
